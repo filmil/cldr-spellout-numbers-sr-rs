@@ -574,9 +574,9 @@ x.x: << запятая >>;
 10000000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{десятимиллиардной}other{десятимиллиардных})$;
 100000000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{стомиллиардной}other{стомиллиардных})$;
 1000000000000: <0<;
-%spellout-cardinal-masculine-ablative:
+%spellout-cardinal-masculine-locative:
 -x: минус >>;
-x.x: [<%spellout-cardinal-feminine-ablative< $(cardinal,one{целой}other{целыми})$ ]>%%fractions-feminine-ablative>;
+x.x: [<%spellout-cardinal-feminine-locative< $(cardinal,one{целой}other{целыми})$ ]>%%fractions-feminine-locative>;
 0: нулем;
 1: одним;
 2: двумя;
@@ -606,21 +606,21 @@ x.x: [<%spellout-cardinal-feminine-ablative< $(cardinal,one{целой}other{ц�
 80: восемьюдесятью[ >>];
 90: девяноста[ >>];
 100: ста[ >>];
-200: <%spellout-cardinal-feminine-ablative<стами[ >>];
-1000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
-1000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
-1000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
-1000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
-1000000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
+200: <%spellout-cardinal-feminine-locative<стами[ >>];
+1000: <%spellout-cardinal-feminine-locative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
+1000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
+1000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
+1000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
+1000000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
 1000000000000000000: =#,##0=;
-%spellout-cardinal-neuter-ablative:
-0: =%spellout-cardinal-masculine-ablative=;
-%spellout-cardinal-feminine-ablative:
+%spellout-cardinal-neuter-locative:
+0: =%spellout-cardinal-masculine-locative=;
+%spellout-cardinal-feminine-locative:
 -x: минус >>;
-x.x: [<%spellout-cardinal-feminine-ablative< $(cardinal,one{целой}other{целыми})$ ]>%%fractions-feminine-ablative>;
+x.x: [<%spellout-cardinal-feminine-locative< $(cardinal,one{целой}other{целыми})$ ]>%%fractions-feminine-locative>;
 0: нулем;
 1: одной;
-2: =%spellout-cardinal-masculine-ablative=;
+2: =%spellout-cardinal-masculine-locative=;
 20: двадцатью[ >>];
 30: тридцатью[ >>];
 40: сорока[ >>];
@@ -630,19 +630,19 @@ x.x: [<%spellout-cardinal-feminine-ablative< $(cardinal,one{целой}other{ц�
 80: восемьюдесятью[ >>];
 90: девяноста[ >>];
 100: ста[ >>];
-200: <%spellout-cardinal-feminine-ablative<стами[ >>];
-1000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
-1000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
-1000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
-1000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
-1000000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
+200: <%spellout-cardinal-feminine-locative<стами[ >>];
+1000: <%spellout-cardinal-feminine-locative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
+1000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
+1000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
+1000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
+1000000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
 1000000000000000000: =#,##0=;
-%spellout-cardinal-plural-ablative:
+%spellout-cardinal-plural-locative:
 -x: минус >>;
 x.x: << запятая >>;
 0: нулем;
 1: одними;
-2: =%spellout-cardinal-masculine-ablative=;
+2: =%spellout-cardinal-masculine-locative=;
 20: двадцатью[ >>];
 30: тридцатью[ >>];
 40: сорока[ >>];
@@ -652,25 +652,25 @@ x.x: << запятая >>;
 80: восемьюдесятью[ >>];
 90: девяноста[ >>];
 100: ста[ >>];
-200: <%spellout-cardinal-feminine-ablative<стами[ >>];
-1000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
-1000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
-1000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
-1000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
-1000000000000000: <%spellout-cardinal-masculine-ablative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
+200: <%spellout-cardinal-feminine-locative<стами[ >>];
+1000: <%spellout-cardinal-feminine-locative< $(cardinal,one{тысячей}other{тысячами})$[ >>];
+1000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллионом}other{миллионами})$[ >>];
+1000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{миллиардом}other{миллиардами})$[ >>];
+1000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{триллионом}other{триллионами})$[ >>];
+1000000000000000: <%spellout-cardinal-masculine-locative< $(cardinal,one{квадриллионом}other{квадриллионами})$[ >>];
 1000000000000000000: =#,##0=;
-%%fractions-feminine-ablative:
-10: <%spellout-cardinal-feminine-ablative< $(cardinal,one{десятой}other{десятыми})$;
-100: <%spellout-cardinal-feminine-ablative< $(cardinal,one{сотой}other{сотыми})$;
-1000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{тысячной}other{тысячными})$;
-10000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{десятитысячной}other{десятитысячными})$;
-100000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{стотысячной}other{стотысячными})$;
-1000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{миллионной}other{миллионными})$;
-10000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{десятимиллионной}other{десятимиллионными})$;
-100000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{стомиллионной}other{стомиллионными})$;
-1000000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{миллиардной}other{миллиардными})$;
-10000000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{десятимиллиардной}other{десятимиллиардными})$;
-100000000000: <%spellout-cardinal-feminine-ablative< $(cardinal,one{стомиллиардной}other{стомиллиардными})$;
+%%fractions-feminine-locative:
+10: <%spellout-cardinal-feminine-locative< $(cardinal,one{десятой}other{десятыми})$;
+100: <%spellout-cardinal-feminine-locative< $(cardinal,one{сотой}other{сотыми})$;
+1000: <%spellout-cardinal-feminine-locative< $(cardinal,one{тысячной}other{тысячными})$;
+10000: <%spellout-cardinal-feminine-locative< $(cardinal,one{десятитысячной}other{десятитысячными})$;
+100000: <%spellout-cardinal-feminine-locative< $(cardinal,one{стотысячной}other{стотысячными})$;
+1000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{миллионной}other{миллионными})$;
+10000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{десятимиллионной}other{десятимиллионными})$;
+100000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{стомиллионной}other{стомиллионными})$;
+1000000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{миллиардной}other{миллиардными})$;
+10000000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{десятимиллиардной}other{десятимиллиардными})$;
+100000000000: <%spellout-cardinal-feminine-locative< $(cardinal,one{стомиллиардной}other{стомиллиардными})$;
 1000000000000: <0<;
 %%yj:
 0: ный;
@@ -695,7 +695,7 @@ x.x: << запятая >>;
 1: 'а =%spellout-ordinal-feminine-accusative=;
 %%ym:
 0: ным;
-1: 'а =%spellout-ordinal-masculine-ablative=;
+1: 'а =%spellout-ordinal-masculine-locative=;
 %%om:
 0: ном;
 1: 'а =%spellout-ordinal-masculine-locative=;
@@ -707,7 +707,7 @@ x.x: << запятая >>;
 1: 'а =%spellout-ordinal-plural-genitive=;
 %%ymi:
 0: ными;
-1: 'а =%spellout-ordinal-plural-ablative=;
+1: 'а =%spellout-ordinal-plural-locative=;
 %%thousandsprefixconjoined:
 0: =%spellout-cardinal-feminine-genitive=;
 1: одно;
@@ -1154,7 +1154,7 @@ x.x: =0.#=;
 %spellout-ordinal-feminine-dative:
 0: =%spellout-ordinal-feminine-genitive=;
 %spellout-ordinal-plural-dative:
-0: =%spellout-ordinal-masculine-ablative=;
+0: =%spellout-ordinal-masculine-locative=;
 %spellout-ordinal-masculine-accusative:
 0: =%spellout-ordinal-masculine=;
 %spellout-ordinal-neuter-accusative:
@@ -1269,7 +1269,7 @@ x.x: =0.#=;
 0: =%spellout-ordinal-feminine-genitive=;
 %spellout-ordinal-plural-locative:
 0: =%spellout-ordinal-plural-genitive=;
-%spellout-ordinal-masculine-ablative:
+%spellout-ordinal-masculine-locative:
 -x: минус >>;
 x.x: =0.#=;
 0: нулевым;
@@ -1320,11 +1320,11 @@ x.x: =0.#=;
 5000/1000: <%%thousandsprefixconjoined<тысячным;
 5001/1000: <%%thousandsprefixseparate<тысяч[ >>];
 21001: =0=.;
-%spellout-ordinal-neuter-ablative:
-0: =%spellout-ordinal-masculine-ablative=;
-%spellout-ordinal-feminine-ablative:
+%spellout-ordinal-neuter-locative:
+0: =%spellout-ordinal-masculine-locative=;
+%spellout-ordinal-feminine-locative:
 0: =%spellout-ordinal-feminine-genitive=;
-%spellout-ordinal-plural-ablative:
+%spellout-ordinal-plural-locative:
 -x: минус >>;
 x.x: =0.#=;
 0: нулевыми;
